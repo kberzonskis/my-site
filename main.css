@@ -1,0 +1,58 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgba(175, 86, 153, 0.733);
+
+
+} 
+
+.body { 
+    display: flex;
+    background-color: rgb(193, 218, 189);
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav { 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+    gap: 20px;
+
+
+}
+
+.figure { 
+    display: flex;
+    
+  
+    height: 70px;
+    width: 100px;
+    padding: auto;
+
+
+}
+
+.get { 
+    height: 70px;
+    width: 105px;
+}
+
+
+
+
+.rights { 
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(160, 44, 44);
+    color: #f1eeee;
+
+}
